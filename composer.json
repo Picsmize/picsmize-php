@@ -1,0 +1,25 @@
+{
+    "name": "picsmize/picsmize-php",
+    "description": "Picsmize - Image Optimizer",
+    "type": "package",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Picsmize",
+            "email": "picsmize@gmail.com",
+            "homepage": "https://picsmize.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "files": [
+            "Picsmize/Picsmize.php"
+        ],
+        "psr-4": {
+            "Picsmize\\Picsmize\\": "Picsmize/"
+        }
+    }
+}
